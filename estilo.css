@@ -1,0 +1,98 @@
+header {
+    background-color: #023398;
+    text-align: center;
+    font-size: larger;
+    font-family: Tahoma, sans-serif;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(#023398, #000000, #023398);
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 800px;
+    height: 250px;
+    margin-left: 1%;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: tahoma, sans-serf;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container div {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.item-box-1 {
+    flex: 2;
+    order: 2;
+    background-color: #0511F2;
+    align-self: flex-start;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.item-box-2 {
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    text-align: justify;
+}
+
+
+.item-box-3 {
+    flex: 2;
+    order: 2;
+    background-color: #030A8C;
+    align-self: flex-start;
+    color: white;
+    font-size: 20px;
+}
+
+.item-box-4{
+    flex: 2;
+    order: 2;
+    background-color:#033E8C;
+    align-self: flex-start;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    font-size: larger;
+    font-family: Tahoma, sans-serif;
+    color: white;
+
+}
+
+a {
+    color: white;
+    border: 4px solid black;
+    border-radius: 7px;
+    padding: 10px;
+}
